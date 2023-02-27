@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/schedulerdemo/static/css/main.b79d1a49.css",
+    "main.js": "/schedulerdemo/static/js/main.77e0e03b.js",
+    "index.html": "/schedulerdemo/index.html",
+    "main.b79d1a49.css.map": "/schedulerdemo/static/css/main.b79d1a49.css.map",
+    "main.77e0e03b.js.map": "/schedulerdemo/static/js/main.77e0e03b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b79d1a49.css",
+    "static/js/main.77e0e03b.js"
+  ]
+}
