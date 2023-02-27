@@ -1,0 +1,191 @@
+body {
+  text-align: center;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.header-container {
+  margin-top: 50px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.appointment-table {
+  margin: auto;
+}
+
+.appointments-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex;
+  width: 500px;
+  background: #ffffff;
+  text-align: center;
+  margin: 75px auto;
+  border-radius: 10px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  user-select: none;
+  padding-bottom: 25px;
+  padding-top: 8px;
+}
+
+.form-textbox-input {
+  appearance: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d2d2d7;
+  border-radius: 10px;
+  box-sizing: border-box;
+  height: 2.5rem;
+  margin: 5px;
+  padding-bottom: 0;
+  padding-left: 0.94118rem;
+  padding-top: 0;
+  text-overflow: ellipsis;
+  width: 80%;
+  font-family: sans-serif;
+}
+
+.form-textbox-input:focus {
+  box-shadow: rgba(0, 125, 250, 0.6) 0 0 0 4px;
+  outline: 0;
+}
+
+.form-textbox-input::placeholder {
+  color: #6e6e73;
+}
+
+.form-textbox-input:disabled {
+  -webkit-text-fill-color: #86868b;
+  background-color: rgba(0, 0, 0, 0.02);
+  color: #86868b;
+}
+
+.form-textbox-input:focus {
+  border-color: #0071e3;
+}
+
+input.form-textbox-input {
+  padding-right: 10px;
+}
+
+:focus:active {
+  outline: 0 !important;
+}
+
+.btn {
+  background-color: initial;
+  background-image: linear-gradient(#42a1ec, #0070c9);
+  border: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  min-width: 30px;
+  padding: 8px 15px;
+  white-space: nowrap;
+  font-weight: bolder;
+  color: aliceblue;
+  margin: 2.5px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.btn-clear {
+  background-color: initial;
+  background-image: linear-gradient(#ec4242, #c90000);
+  border: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  min-width: 30px;
+  padding: 8px 15px;
+  white-space: nowrap;
+  font-weight: bolder;
+  color: aliceblue;
+  margin: 2.5px;
+}
+
+.btn-clear:hover {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #fd3c3c, #db3434d8);
+  background-image: -moz-linear-gradient(top, #fd3c3c, #db3434d8);
+  background-image: -ms-linear-gradient(top, #fd3c3c, #db3434d8);
+  background-image: -o-linear-gradient(top, #fd3c3c, #db3434d8);
+  background-image: linear-gradient(to bottom, #fd3c3c, #db3434d8);
+  text-decoration: none;
+}
+
+.header-app {
+  display: inline;
+  font-family: inherit;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  line-height: 1.08349;
+  user-select: none;
+}
+
+.header-appointments {
+  display: inline;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  line-height: 2;
+  user-select: none;
+  color: #000000;
+}
+
+.form-edit-textbox-input {
+  appearance: none;
+  font-size: 13px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #d2d2d7;
+  border-radius: 10px;
+  box-sizing: border-box;
+  height: 1.6rem;
+  margin: 0px;
+  padding-bottom: 0;
+  padding-left: 10px;
+  padding-top: 0;
+  text-overflow: ellipsis;
+  width: 95%;
+  font-family: sans-serif;
+}
+
+.form-edit-textbox-input:focus {
+  box-shadow: rgb(250, 246, 0) 0 0 0 4px;
+  outline: 0;
+}
+
+.form-edit-textbox-input::placeholder {
+  color: #6e6e73;
+}
+
+.form-edit-textbox-input:disabled {
+  -webkit-text-fill-color: #86868b;
+  background-color: rgba(0, 0, 0, 0.02);
+  color: #86868b;
+}
+
+input.form-edit-textbox-input {
+  padding-right: 10px;
+}
+
+:focus:active {
+  outline: 0 !important;
+}
+
+.fallback {
+  color: #86868b;
+  font-weight: bolder;
+  font-family: sans-serif;
+}

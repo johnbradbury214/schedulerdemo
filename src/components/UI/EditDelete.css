@@ -1,0 +1,49 @@
+.btn-delete {
+  background-color: initial;
+  background-image: linear-gradient(#ec4242, #c90000);
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  min-width: 30px;
+  padding: 3px 8px;
+  white-space: nowrap;
+  font-weight: bolder;
+  color: aliceblue;
+  margin: 1px;
+}
+
+.btn-delete:hover {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #fd3c3c, #db3434d8);
+  background-image: -moz-linear-gradient(top, #fd3c3c, #db3434d8);
+  background-image: -ms-linear-gradient(top, #fd3c3c, #db3434d8);
+  background-image: -o-linear-gradient(top, #fd3c3c, #db3434d8);
+  background-image: linear-gradient(to bottom, #fd3c3c, #db3434d8);
+  text-decoration: none;
+}
+
+.btn-edit {
+  background-color: initial;
+  background-image: linear-gradient(#0dc41c, #02aa02);
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  min-width: 30px;
+  padding: 3px 8px;
+  white-space: nowrap;
+  font-weight: bolder;
+  color: aliceblue;
+  margin: 1px;
+}
+
+.btn-edit:hover {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #73fd3c, #50db34d8);
+  background-image: -moz-linear-gradient(top, #73fd3c, #50db34d8);
+  background-image: -ms-linear-gradient(top, #73fd3c, #50db34d8);
+  background-image: -o-linear-gradient(top, #73fd3c, #50db34d8);
+  background-image: linear-gradient(to bottom, #73fd3c, #50db34d8);
+  text-decoration: none;
+}
